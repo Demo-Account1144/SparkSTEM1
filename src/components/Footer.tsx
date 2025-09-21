@@ -43,7 +43,7 @@ const Footer = () => {
         {/* Team Info */}
         <div className="bg-gradient-to-r from-blue-900/20 to-purple-900/20 rounded-2xl p-6 mb-8">
           <div className="text-center">
-            <h3 className="text-xl font-bold text-white mb-2">Built by Team SparkSTEM</h3>
+            <h3 className="text-xl font-bold text-white mb-2">Built by Team Kastkar</h3>
             <p className="text-gray-400 mb-4">
               A passionate team of developers, designers, and educators working to revolutionize rural education in India.
             </p>
@@ -54,7 +54,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <span>team@sparkstem.in</span>
+                <span>team@kastkar.in</span>
               </div>
               <div className="flex items-center gap-2">
                 <Github className="w-4 h-4" />
@@ -79,7 +79,7 @@ const Footer = () => {
           
           <div className="text-center md:text-right">
             <p className="text-gray-400 text-sm">
-              © 2025 SparkSTEM. Made with ❤️ for rural India.
+              © 2025 SparkSTEM. Made with ❤️ by Team Kastkar for rural India.
             </p>
             <p className="text-gray-500 text-xs mt-1">
               Empowering minds, preserving culture, building futures.

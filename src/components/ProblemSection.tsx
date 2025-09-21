@@ -33,15 +33,15 @@ const ProblemSection = () => {
     },
     {
       icon: <Languages className="w-16 h-16" />,
-      title: "English is Tough?",
-      description: "No problem! Play the entire game in your language: Odia.",
+      title: "Complex Concepts?",
+      description: "We break down difficult topics into simple, digestible lessons.",
       color: "from-blue-500 to-purple-500",
       delay: 200
     },
     {
       icon: <Gamepad2 className="w-16 h-16" />,
-      title: "Textbooks = 😴?",
-      description: "We turned boring lessons into EPIC quests. (Seriously.)",
+      title: "Need More Engagement?",
+      description: "Our platform is more engaging with interactive quests and challenges.",
       color: "from-green-500 to-teal-500",
       delay: 400
     },
@@ -59,14 +59,10 @@ const ProblemSection = () => {
       <div className="max-w-7xl mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-5xl md:text-6xl font-black text-white mb-4">
-            Why is Studying STEM...{' '}
-            <span className="relative">
-              <span className="line-through text-red-500">So Boring?</span>
-              <span className="absolute -top-2 -right-4 text-green-400 text-2xl animate-bounce">✨</span>
-            </span>
+            Studying STEM becomes so exciting with our platform!
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            We identified the real problems and created epic solutions!
+            We've created engaging solutions to make learning more effective and fun!
           </p>
         </div>
 

@@ -100,7 +100,7 @@ const Hero = ({ onOpenLogin }: HeroProps) => {
 
           {/* Main Headline with Animation */}
           <div className="mb-6">
-            <h1 className="text-6xl md:text-8xl font-black text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 via-orange-500 to-red-500 mb-4 animate-pulse">
+            <h1 className="text-6xl md:text-8xl font-black text-white drop-shadow-2xl mb-4 animate-pulse">
               <span className="inline-block animate-bounce" style={{ animationDelay: '0s' }}>S</span>
               <span className="inline-block animate-bounce" style={{ animationDelay: '0.1s' }}>p</span>
               <span className="inline-block animate-bounce" style={{ animationDelay: '0.2s' }}>a</span>
@@ -117,14 +117,8 @@ const Hero = ({ onOpenLogin }: HeroProps) => {
           {/* Sub-headlines */}
           <div className="mb-8 space-y-4">
             <h2 className="text-3xl md:text-5xl font-bold text-white animate-fade-in-up">
-              Stop Studying. Start Playing.
+              Start Studying and Playing Together!
             </h2>
-            <h3 className="text-xl md:text-2xl text-yellow-300 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
-              ଏଠାରେ ଶିକ୍ଷା ଏକ ଅଭିଯାନ
-            </h3>
-            <p className="text-lg text-gray-300 animate-fade-in-up" style={{ animationDelay: '1s' }}>
-              (Here, learning is an adventure)
-            </p>
           </div>
 
           {/* Call-to-Action Buttons */}
@@ -164,9 +158,9 @@ const Hero = ({ onOpenLogin }: HeroProps) => {
             </div>
             
             <div className="group p-6 bg-white/10 backdrop-blur-sm rounded-2xl hover:bg-white/20 transition-all duration-300 hover:scale-105">
-              <div className="text-4xl mb-4 group-hover:animate-bounce">🗣️</div>
-              <h3 className="text-xl font-bold text-white mb-2">Odia Language</h3>
-              <p className="text-gray-300">Learn in your mother tongue with cultural context.</p>
+              <div className="text-4xl mb-4 group-hover:animate-bounce">🎯</div>
+              <h3 className="text-xl font-bold text-white mb-2">Interactive Learning</h3>
+              <p className="text-gray-300">Engaging content that makes learning fun and effective.</p>
             </div>
             
             <div className="group p-6 bg-white/10 backdrop-blur-sm rounded-2xl hover:bg-white/20 transition-all duration-300 hover:scale-105">
