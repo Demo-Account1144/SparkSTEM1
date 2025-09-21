@@ -50,11 +50,11 @@ const Footer = () => {
             <div className="flex items-center justify-center gap-6 text-sm text-gray-400">
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4" />
-                <span>Bhubaneswar, Odisha</span>
+                <span>Indore, MP</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4" />
-                <span>team@kastkar.in</span>
+                <span>kastkar@atomicmail.io</span>
               </div>
               <div className="flex items-center gap-2">
                 <Github className="w-4 h-4" />
